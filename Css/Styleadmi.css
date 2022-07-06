@@ -81,7 +81,7 @@ ul {
     justify-content: center; 
     overflow: auto;
     overflow-wrap: break-word;
-    background-color: aqua;
+
     position: sticky;
     top: 119px;
 }
@@ -94,7 +94,10 @@ li:hover {
 main .title{
     width: 100%;
     background-color: #a7f765;
-    margin-top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 159px;
+    padding: 15px;
 }
 main h3{
     text-align: center;

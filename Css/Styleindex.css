@@ -82,9 +82,13 @@ ul {
     justify-content: center; 
     overflow: auto;
     overflow-wrap: break-word;
-    background-color: aqua;
     position: sticky;
     top: 119px;
+    
+}
+
+.text-op{
+    text-align: center;
 }
 
 
