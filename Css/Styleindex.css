@@ -127,7 +127,7 @@ main .Todos .card1 p{
 main aside #fondo-ad{
     width: 100%;
     height: auto;
-    background-color: blue;
+    background-color: rgb(217, 255, 0);
     text-align: center;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
