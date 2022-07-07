@@ -6843,7 +6843,7 @@ fieldset:disabled .btn {
 
 .carousel-inner {
   position: relative;
-  width: 1000%;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -6857,7 +6857,7 @@ fieldset:disabled .btn {
   position: relative;
   display: none;
   float: left;
-  width: 100%;
+  width: 300%;
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
