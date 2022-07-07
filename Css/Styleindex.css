@@ -101,7 +101,7 @@ ul {
 
 main .title{
     width: 100%;
-    background-color: #a7f765;
+    background-color: #7ad430;
     position: -webkit-sticky;
     position: sticky;
     top: 159px;
@@ -136,7 +136,7 @@ main .Todos .card1 p{
 main aside #fondo-ad{
     width: 100%;
     height: auto;
-    background-color: rgb(0, 119, 255);
+    
     text-align: center;
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
