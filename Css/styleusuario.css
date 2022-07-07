@@ -9,7 +9,7 @@ header{
     justify-content: center;
     display: flex;
     align-items: center;
-s    background-color: #bcee99;
+s    background-color: #7ad430;
 }
 header .Nombre{
     width: 300px;
@@ -18,7 +18,7 @@ header .Nombre{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    background-color: rgb(109, 238, 137);
+    background-color: #7ad430;
 }
 .opciones{
     width: auto;
@@ -45,7 +45,7 @@ main aside{
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: #419f00;
+    background-color: #7ad430;
 }
 
 main aside .option{
