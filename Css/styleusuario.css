@@ -9,7 +9,7 @@ header{
     justify-content: center;
     display: flex;
     align-items: center;
-s    background-color: #7ad430;
+background-color: #7ad430;
 }
 header .Nombre{
     width: 300px;
