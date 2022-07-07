@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/Crear cuenta.css">
+    <link rel="stylesheet" href="sass/reducido.css">
 </head>
 <body>
-    <header>
-        <nav>
-          
-        </nav>
-      </header>
+  <header>
+    <nav>
+      <div id="brand">
+        <div id="logo">
+          <img src="Imagenes/Captura de pantalla (30)-modified.png" alt="" srcset="">
+        </div>
+        <div class="col justify-content-center" style="display: flex;">
+          <img src="Imagenes/WhatsApp_Image_2022-07-06_at_11.08.22_PM-removebg-preview.png" alt="">
+        </div>
+    </div>
+      <ul>
+        <li><a href="Index.html">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#">¿Quienes somos?</a></li>
+        <li><a href="#">Iniciar sesion</a></li>
+        
+       </ul>
+    </nav>
+  </header>
       <main>
         <div class="body"></div>
 
@@ -23,15 +38,39 @@
       
 
         <div class="login">
-          <div class="Bien">CREAR CUENTA</div>
-          <br>
-          <input type="text" placeholder="USUARIO" name="user"><br><br>
-          <input type="password" placeholder="CONSTRASEÑA" name="password"><br><br>
+          <div class="container-lg" style=" align-items: center; justify-content: center; display: flex">
+            <div class="row" >
+              <form>
+                <div class="mb-3" style="text-align: center;">
+                  <label for="exampleInputEmail1" class="form-label">Nombres</label>
+                  <br>
+                  <input type="text" class="form-control border-danger" style="border-radius: 10px;" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3" style="text-align: center;">
+                  <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+                  <br>
+                  <input type="text" class="form-control border-danger" style="border-radius: 10px;" id="exampleInputEmail12" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3" style="text-align: center;">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <br>
+                  <input type="email" class="form-control border-danger" style="border-radius: 10px;" id="exampleInputEmail13" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3" style="text-align: center;">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <br>
+                  <input type="password" class="form-control" style="border-radius: 10px;" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
           
-        <div class="botones"> 
-
-         
-            <input type="button" value="CREAR">
       
         
       </main>
