@@ -9,7 +9,7 @@ header{
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: #419f00;
+    background-color: #98ce72;
 }
 header .Nombre{
     width: 300px;
@@ -18,7 +18,7 @@ header .Nombre{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 20px;
-    background-color: yellowgreen;
+    background-color: rgb(109, 238, 137);
 }
 .opciones{
     width: auto;
