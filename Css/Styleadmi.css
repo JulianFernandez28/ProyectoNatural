@@ -128,3 +128,30 @@ main .Todos .card img{
 #color_form{
     background-image: radial-gradient(circle at 53.57% 9.19%, #c6ff89 0, #b0ff8f 10%, #98ff95 20%, #7ffb9b 30%, #65f19f 40%, #48e5a1 50%, #23d9a3 60%, #00cea4 70%, #00c4a6 80%, #00bba9 90%, #00b4ab 100%);
 }
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #141413;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer .Foot{
+    width: 30%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+footer  #Left{
+    border-right: 3px solid white;
+}
+footer #Right{
+    border-left: 3px solid white;
+}
+footer .red{
+    align-items: center;
+    
+}
