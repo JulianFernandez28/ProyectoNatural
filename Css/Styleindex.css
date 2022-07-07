@@ -46,7 +46,7 @@ nav ul li a
 }
       
 nav ul li:hover {
-  background: #e4a758;
+  background: #f08e0d;
 }
 #brand,
 ul {
@@ -101,14 +101,15 @@ ul {
 
 main .title{
     width: 100%;
-    background-color: #7ad430;
+    background-color: #22ec22;
     position: -webkit-sticky;
     position: sticky;
     top: 159px;
-    padding: 15px;
+    padding: 10px;
 }
 main h3{
     text-align: center;
+    
 }
 main .Todos{
     width: 100%;
