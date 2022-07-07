@@ -21,13 +21,13 @@
 }
 
 .frase div span{
-  color: #8dd187 !important;
+  color: #8ee785 !important;
 }
 
 header {
   width: 100vw;
   height: 90px;
-  background: #8dd187;
+  background: #8ee785;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +36,7 @@ header {
 nav {
   width: 100vw;
   height: 120px;
-  background: #8dd187;
+  background: #8ee785;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
