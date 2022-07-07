@@ -10,7 +10,7 @@ body{
 header {
     width: 100vw;
     height: 120px;
-    background: #a7f765;
+    background: #7ad430;
     display: flex;
     padding-top: 10px;
     z-index: 100;
@@ -19,7 +19,7 @@ header {
 nav{
     width: 100vw;
     height: 10px;
-    background: #a7f765;
+    background: #7ad430;
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: all 0.3s;
@@ -46,7 +46,7 @@ nav ul li a
 }
       
 nav ul li:hover {
-  background: #ec9b23;
+  background: #e4a758;
 }
 #brand,
 ul {
