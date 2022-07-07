@@ -13,6 +13,7 @@ header {
     background: #a7f765;
     display: flex;
     padding-top: 10px;
+    z-index: 100;
     
 }
 nav{
@@ -84,7 +85,11 @@ ul {
     overflow-wrap: break-word;
     position: sticky;
     top: 119px;
+    z-index: 100;
     
+}
+#Cont-caorusel{
+    background-image: radial-gradient(circle at 56.18% 42.64%, #90d8eb 0, #93d7ee 16.67%, #96d6f1 33.33%, #99d5f3 50%, #9dd4f5 66.67%, #a2d3f7 83.33%, #a7d2f8 100%);
 }
 
 .text-op{
