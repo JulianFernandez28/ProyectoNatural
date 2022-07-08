@@ -10,14 +10,14 @@ body{
 header {
     width: 100vw;
     height: 120px;
-    background: #46a546;
+    background: #3ad82c;
     display: flex;
     padding-top: 10px;    
 }
 nav{
     width: 100vw;
     height: 10px;
-    background: #46a546;
+    background: #3ad82c;
     display: grid; 
     grid-template-columns: 1fr 1fr;
     z-index: 10px;
@@ -89,11 +89,11 @@ ul {
 
   
 li:hover {
-    background-color: #46a546; /* Green */
+    background-color: #3ad82c; /* Green */
 }
 main .title{
     width: 100%;
-    background-color: #46a546;
+    background-color: #3ad82c;
     position: -webkit-sticky;
     position: sticky;
     top: 159px;

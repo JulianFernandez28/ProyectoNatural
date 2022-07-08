@@ -7,7 +7,7 @@
 header {
   width: 100vw;
   height: 90px;
-  background: #a7f765;
+  background: #3ad82c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +16,7 @@ header {
 nav{
   width: 100vw;
   height: 120px;
-  background: #a7f765;
+  background: #3ad82c;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
@@ -87,7 +87,7 @@ section {
   justify-content: center;
 }
 section:nth-child(odd) {
-  background: #a7f765;
+  background: #3ad82c;
 }
  
 

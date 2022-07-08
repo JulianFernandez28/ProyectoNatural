@@ -20,13 +20,13 @@
   }
   
   .frase div span{
-    color: #61fa53 !important;
+    color: #3ad82c !important;
   }
   
   header {
     width: 100vw;
     height: 90px;
-    background: #a7f765;
+    background: #3ad82c;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -35,7 +35,7 @@
   nav {
     width: 100vw;
     height: 120px;
-    background: #a7f765;
+    background: #3ad82c;
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: fixed;
@@ -120,7 +120,7 @@
             justify-content: center;
   }
   section:nth-child(odd) {
-    background: #a7f765;
+    background: #3ad82c;
   }
   
   
@@ -142,7 +142,7 @@
     bottom: -40px;
     width: auto;
     height: auto;
-    background-image: url(https://ecoama.co/wp-content/uploads/2020/12/1.jpg);
+    background-image: url(https://24hourmuseum.org/wp-content/uploads/2018/10/tienda-naturista-bogota.jpg);
     background-size: cover;
     -webkit-filter: blur(5px);
     z-index: 0;
