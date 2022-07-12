@@ -7,73 +7,15 @@
 body{
     background-color: rgb(255, 255, 255);
 }
-header {
-    width: 100vw;
-    height: 120px;
-    background: #8bc34a;
-    display: flex;
-    padding-top: 10px;    
-}
-nav{
-    width: 100vw;
-    height: 10px;
-    background: #8bc34a;
-    display: grid; 
-    grid-template-columns: 1fr 1fr;
-    z-index: 10px;
-    transition: all 0.3s;    
-}
-nav ul {
-    list-style: none;
-    overflow: hidden;    
-}
-nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 20px;    
-}
-nav ul li a 
-{
-  display: block; 
-  padding: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-      
-nav ul li:hover {
-  background: #ec9b23;
-}
-#brand,
-ul {
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  
-}
-  
-#brand {
-    padding-left: 40px;
-    
-    
-}
-  
-#logo {
-    width:110px;
-    height: 110px;
-    background: #fff;
-    border-radius:50%;
-    cursor: pointer;
-    padding-bottom: auto;
-    
-  
+#banner-prin{
+    background-color: #59e270;
   }
-#logo img
-  {
-    width: 110px;
-    height: 110px;
-    
+  header{
+    position: sticky;
+    top:0;
+    z-index: 100;
   }
+
   #option{
     width: 100%;
     height: 40px;
@@ -83,20 +25,21 @@ ul {
     overflow-wrap: break-word;
 
     position: sticky;
-    top: 119px;
+    top: 106px;
 }
 
 
   
 li:hover {
-    background-color: #99d099; /* Green */
+    background-color: #338a3e; /* Green */
+    
 }
 main .title{
     width: 100%;
-    background-color: #99d099;
+    background-color: #59e270;
     position: -webkit-sticky;
     position: sticky;
-    top: 159px;
+    top: 146px;
     padding: 15px;
 }
 main h3{
