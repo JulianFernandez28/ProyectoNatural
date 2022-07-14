@@ -22,13 +22,35 @@ li:hover {
     background-color: #6ecf61; /* Green */
     
 }
+#modal-head{
+  background-color: #07640e;
+  color: white;
+}
+#modal-foo{
+  background-color: #16681d;
+  color: white;
+}
+#AddPro{
+  background-color: darkorange;
+  border-color: wheat;
+}
+#form-productos{
+  background-color: #1dbd33;
+  transition:  800ms;
+}
+.datos-pro:hover{
+  border-color: #1440a7;
+}
+#form-productos .datos-pro{
+  border-radius: 10px;
+}
 
 
 
 :root {
-    --main-bg-color: #009d63;
-    --main-text-color: #009d63;
-    --second-text-color: #bbbec5;
+    --main-bg-color: #009945;
+    --main-text-color: #1dbd33;
+    --second-text-color: #1440a7;
     --second-bg-color: #c1efde;
   }
   
@@ -56,11 +78,11 @@ li:hover {
     overflow-x: hidden;
     background-image: linear-gradient(
       to right,
-      #baf3d7,
-      #c2f5de,
-      #cbf7e4,
-      #d4f8ea,
-      #ddfaef
+      #baf3ba,
+      #c2f5c2,
+      #cbf7cf,
+      #a4f7b6,
+      #c2f1be
     );
   }
   
