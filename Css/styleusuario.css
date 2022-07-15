@@ -11,7 +11,7 @@ body{
 header {
     width: 100vw;
     height: 120px;
-    background: #59e270;
+    background: #1dbd33;
     display: flex;
     padding-top: 10px;
     z-index: 100;
@@ -20,7 +20,7 @@ header {
 nav{
     width: 100vw;
     height: 10px;
-    background: #59e270;
+    background: #1dbd33;
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: all 0.3s;
@@ -102,7 +102,7 @@ ul {
 
 main .title{
     width: 100%;
-    background-color: #59e270;
+    background-color:#1dbd33;
     position: -webkit-sticky;
     position: sticky;
     top: 159px;
