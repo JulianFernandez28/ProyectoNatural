@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* fonfo total */
+body{
+    background-color: rgb(255, 255, 255);
+}
+#banner-prin{
+    background-color: #59e270;
+}
+
+header{
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+
+  
+li:hover {
+    background-color: #6ecf61; /* Green */
+    
+}
+.propiedades{
+    margin-right: 15px;
+    margin-left: 15px ;
+    font-size: 23px;
+}
+.cont-foto{
+    justify-content: center; 
+    align-items: center; 
+    align-content: center;
+    display: flex;
+}
+.cont-datos{
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(143, 143, 143);
+}
+
+.datos-pro{
+    margin-top: 10px;
+
+}
+.codigo-pro{
+    text-align: center;
+    
+}
+.info-pro{
+    margin-top: 8px;
+    border-radius: 10px;
+    box-shadow:  0 0 5px rgb(143, 143, 143) ;
+    padding: 5px;
+}
