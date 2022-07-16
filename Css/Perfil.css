@@ -14,7 +14,7 @@ body{
 }
  
 .container{
-    width: 80em;
+    width: 60em;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
     border-radius: 1em;
