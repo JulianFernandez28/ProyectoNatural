@@ -23,8 +23,27 @@
 .frase div span{
   color:#1dbd33 !important;
 }
+#banner-prin{
+  background-color: #59e270;
+}
 
-header {
+header{
+  position: fixed;
+  top:0;
+  z-index: 100;
+}
+
+
+li:hover {
+  background-color: #6ecf61; /* Green */
+}
+.propiedades{
+  margin-right: 15px;
+  margin-left: 15px ;
+  font-size: 23px;
+}
+
+/* header {
   width: 100vw;
   height: 90px;
   background: #1dbd33;
@@ -108,7 +127,7 @@ ul
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding-right: 40px;
-}
+} */
 
 section 
 {
@@ -150,7 +169,7 @@ body{
   z-index: 0;
 }
 
-.grad{
+/* .grad{
   position: absolute;
   top: -20px;
   left: -20px;
@@ -159,16 +178,16 @@ body{
   width: auto;
   height: auto;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
-  z-index: 1;
+  /* z-index: 1;
   opacity: 0.7;
-}
+} */ */
 
-.header{
+/* .header{
   position: absolute;
   top: calc(50% - 35px);
   left: calc(50% - 255px);
   z-index: 2;
-}
+} */
 
 .header div{
   float: left;
