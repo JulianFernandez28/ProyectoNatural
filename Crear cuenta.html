@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Document</title>
     <link rel="stylesheet" href="CSS/Crear cuenta.css">
     <link rel="stylesheet" href="sass/reducido.css">
     
 </head>
-<body>
+<body class="body">
   <header>
     <nav class="navbar navbar-expand-lg " id="banner-prin">
       <div class="container-fluid ">
         <div style="padding-right: 20px;">
-          <img src="Imagenes/Captura de pantalla (30)-modified.png" width="80" alt="">
+          <img src="Imagenes/Logo.png" width="80" alt="">
         </div> 
         <a class="navbar-brand" href="#">Crear cuenta</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,154 +45,165 @@
       </div>
     </nav>
   </header>
-      <main class="container-fluid" id="Conte-fondo">
-          <!-- Section: Design Block -->
-        <section class="text-center" style="margin: 5px;">
-          <div class="card mx-4 mx-md-5 shadow-5-strong" style="margin-top: 0px;  backdrop-filter: blur(30px);">
-            <div class="card-body py-5 px-md-5">
-              <div class="row d-flex justify-content-center">
-                <div class="col-lg-8">
-                  <h2 class="fw-bold mb-5">Natural Green Healt</h2>
-                  <form>
-                    <!-- 2 column grid layout with text inputs for the first and last names -->
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-outline">
-                          <input type="text" placeholder="Nombres" id="form3Example1" class="form-control" style="border-radius: 10px;" required/>
-                          
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <input type="text" placeholder="Apellidos" id="form3Example2" class="form-control" style="border-radius: 10px;" required />
-                          <br>
-                        </div>
-                      </div>
-                    </div>
-                    <!--Fecha de nacimiento -->
-                    <p>Fecha de nacimiento</p>
-                    
-                    <div class="row">
-                      <div class="col">
-                        <div class="form-outline">
-                          <form action="">
-                            <div> 
-                              <select name="dias"  id="" class="form-control" style="border-radius: 10px;">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                              </select>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <select name="mes" id="mes" class="form-control" style="border-radius: 10px;">
-                            <option value="01">ENERO</option>
-                            <option value="02">FEBRERO</option>
-                            <option value="03">MARZO</option>
-                            <option value="04">ABRIL</option>
-                            <option value="05">MAYO</option>
-                            <option value="06">JUNIO</option>
-                            <option value="07">JULIO</option>
-                            <option value="08">AGOSTO</option>
-                            <option value="09">SEPTIEMBRE</option>
-                            <option value="10">OCTUBRE</option>
-                            <option value="11">NOVIEMBRE</option>
-                            <option value="12">DICIEMBRE</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <select class="form-control" style="border-radius: 10px;" >
-                            <script>
-                            var myDate = new Date();
-                            var year = myDate.getFullYear();
-                            for(var i = 1900; i < year+1; i++){
-                            document.write('<option value="'+i+'">'+i+'</option>');
-                            }
-                            </script>
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <br>
-
-                    <!-- Email input -->
-                    <div class="form-outline mb-4">
-                      <input type="email" placeholder="Example@email.com" style="border-radius: 10px;" id="form3Example3" class="form-control" />
-                    </div>
-
-                    <!-- Password input -->
-                    <div class="form-outline mb-4">
-                      <input type="password" placeholder="contraseña" style="border-radius: 10px;" id="form3Example4" class="form-control " />
+  <main >
+    <div class="container-fluid" id="principal">
+      <div class="row main-content bg-success text-center">
+        <div class="col-md-4 text-center company__info">
+          <h4 class="company_title">Natural Green</h4>
+        </div>
+        <div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+          <div class="container-fluid">
+            <div class="row" style="margin-top: 5px; margin-bottom:5px;;">
+              <h2>Creacion de cuenta</h2>
+            </div>
+            <div class="row">
+              <form>
+                <!-- 2 column grid layout with text inputs for the first and last names -->
+                <div class="row">
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" placeholder="Nombres" id="form3Example1" class="form-control" style="border-radius: 10px;" required/>
                       
                     </div>
-                    <div class="form-outline mb-4">
-                      <input type="password" placeholder="Confirmar Contraseña" style="border-radius: 10px;" id="form3Example5" class="form-control" />
-                      
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <input type="text" placeholder="Apellidos" id="form3Example2" class="form-control" style="border-radius: 10px;" required />
+                      <br>
                     </div>
-
-                    <!-- Boton de registro -->
-                   
-                      <a type="button"  class="btn btn-primary"  onclick="swal('Registro completo','El registro se realizo con excito, dirijase al inicio de sesion', 'success')">
-                        Registrarse
-                      </a>
-
-                    <!-- Alternativa de inicio -->
-                    <div class="text-center">
-                      <p>or sign up with:</p>
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <img src="Imagenes/Signo/facebook.svg" alt="">
-                      </button>
-
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <img src="Imagenes/Signo/google.svg" alt="">
-                      </button>
-
-                      <button type="button" class="btn btn-link btn-floating mx-1">
-                        <img src="Imagenes/Signo/twitter.svg" alt="">
-                      </button>
-
-                    </div>
-                  </form>
+                  </div>
                 </div>
-              </div>
+                <!--Fecha de nacimiento -->
+                <p>Fecha de nacimiento</p>
+                
+                <div class="row">
+                  <div class="col">
+                    <div class="form-outline">
+                      <form action="">
+                        <div> 
+                          <select name="dias"  id="" class="form-control" style="border-radius: 10px;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <select name="mes" id="mes" class="form-control" style="border-radius: 10px;">
+                        <option value="01">ENERO</option>
+                        <option value="02">FEBRERO</option>
+                        <option value="03">MARZO</option>
+                        <option value="04">ABRIL</option>
+                        <option value="05">MAYO</option>
+                        <option value="06">JUNIO</option>
+                        <option value="07">JULIO</option>
+                        <option value="08">AGOSTO</option>
+                        <option value="09">SEPTIEMBRE</option>
+                        <option value="10">OCTUBRE</option>
+                        <option value="11">NOVIEMBRE</option>
+                        <option value="12">DICIEMBRE</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-outline">
+                      <select class="form-control" style="border-radius: 10px;" >
+                        <script>
+                        var myDate = new Date();
+                        var year = myDate.getFullYear();
+                        for(var i = 1900; i < year+1; i++){
+                        document.write('<option value="'+i+'">'+i+'</option>');
+                        }
+                        </script>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <br>
+
+                <!-- Email input -->
+                <div class="form-outline mb-4" style="margin-top: 10px;">
+                  <input type="email" placeholder="Example@email.com" style="border-radius: 10px;" id="form3Example3" class="form-control" />
+                </div>
+
+                <!-- Password input -->
+                <div class="form-outline mb-4">
+                  <input type="password" placeholder="contraseña" style="border-radius: 10px;" id="form3Example4" class="form-control " />
+                  
+                </div>
+                <div class="form-outline mb-4">
+                  <input type="password" placeholder="Confirmar Contraseña" style="border-radius: 10px;" id="form3Example5" class="form-control" />
+                  
+                </div>
+
+                <!-- Boton de registro -->
+               
+                  <a type="button"  class="btn btn-primary"  onclick="swal('Registro completo','El registro se realizo con excito, dirijase al inicio de sesion', 'success')" >
+                    Registrarse
+                  </a>
+
+                <!-- Alternativa de inicio -->
+                <div class="container">
+
+                  <div class="text-center">
+                    <p>or sign up with:</p>
+                    <div class="row d-flex">
+                      <div class="col col-sm-4">
+                        <button type="button" class="btn btn-link btn-floating mx-1"  style="width: 40px;">
+                          <img src="Imagenes/Signo/facebook.svg" alt="">
+                        </button>
+                      </div>
+                      <div class="col col-sm-4">
+                        <button type="button" class="btn btn-link btn-floating mx-1" style="width: 40px;">
+                          <img src="Imagenes/Signo/google.svg" alt="">
+                        </button>
+                      </div>
+                      <div class="col col-sm-4">
+                        <button type="button" class="btn btn-link btn-floating mx-1"  style="width: 40px;">
+                          <img src="Imagenes/Signo/twitter.svg" alt="">
+                        </button>
+                      </div>
+                    </div>  
+                  </div>
+                </div>                
+              </form> 
             </div>
           </div>
-        </section>
-<!-- Section: Design Block -->
-        
-      </main>
+        </div>
+      </div>
+    </div>
+
+  </main>
 </body>
 </html>
