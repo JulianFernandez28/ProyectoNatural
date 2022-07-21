@@ -11,7 +11,7 @@ body{
 header {
     width: 100vw;
     height: 120px;
-    background: #1dbd33;
+    background: #1f7c00;
     display: flex;
     padding-top: 10px;
     z-index: 100;
@@ -20,7 +20,7 @@ header {
 nav{
     width: 100vw;
     height: 10px;
-    background: #1dbd33;
+    background: #1f7c00;
     display: grid;
     grid-template-columns: 1fr 1fr;
     transition: all 0.3s;
