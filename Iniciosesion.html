@@ -6,68 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
     <title>Inicio de sesion</title>
     <link rel="stylesheet" href="Css/StyleSesion.css">
 </head>
 <body>
-  <header class="container-fluid" style="position: sticky; top:0;">
-    <nav class="navbar navbar-expand-lg " id="banner-prin">
-        <div class="container-xxl ">
-            <div style="padding-right: 20px;">
-            <img src="Imagenes/Captura de pantalla (30)-modified.png" width="80" alt="">
-            </div> 
-            <a class="navbar-brand" style="font-size: 25px;" href="#">Compra</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active propiedades" aria-current="page" href="/Usuario.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active propiedades" aria-current="page" href="/Index.html">Inicio</a>
-                    </li>
-                </ul>
-            </div>
+  <nav class="navbar navbar-expand-lg " id="banner-prin">
+    <div class="container-fluid ">
+      <div style="padding-right: 20px;">
+        <img src="Imagenes/Captura de pantalla (30)-modified.png" width="80" alt="">
+      </div> 
+      <a class="navbar-brand" href="#">Crear cuenta</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pagina Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/Iniciosesion.html">Inicio sesion</a>
+          </li>
+        </ul>
+        <div>
+         <a class="navbar-brand" href="https://es-la.facebook.com/">
+          <img src="Imagenes/Signo/facebook.svg" width="35" alt="">
+         </a>
+         <a class="navbar-brand" href="https://www.instagram.com/">
+          <img src="Imagenes/Signo/instagram.svg" width="35" alt="">
+         </a>
         </div>
-    </nav>
-</header>
-      <main>
-        <div class="body"></div>
-
-        <div class="grad"></div>
-        <div class="frase">
-        <div>El equilibrio <br> perfecto entre <span> <br> ciencia, tradición <br> y naturaleza.</span></div></div>
-		
-      
-
-        <div class="login">
-          <div class="Bien">BIENVENIDO</div>
-          <br>
-          <input type="text" placeholder="USUARIO" name="user"><br><br>
-          <input type="password" placeholder="CONSTRASEÑA" name="password"><br><br>
-          
-        <div class="botones"> 
-
-          <a href="Usuario.html"><input type="button"  value="INICIAR SESION"></a>
-          
-          <a href="Crear cuenta.html">
-            <input type="button" value="REGISTRARSE">
-          </a>
-          
-        </div>
-         
-          <a href="#" class="link">
-            OLVIDE MI CONSTRASEÑA
-          </a>
-         
-        </div>
-        
-      </main>
-       <footer>
-        
-       </footer>
-     
+      </div>
+    </div>
+  </nav>
+   	<!-- Main Content -->
+	<div class="container-fluid">
+		<div class="row main-content bg-success text-center">
+			<div class="col-md-4 text-center company__info">
+				<h4 class="company_title">Natural Green</h4>
+			</div>
+			<div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+				<div class="container-fluid">
+					<div class="row">
+						<h2>Inicio de sesion</h2>
+					</div>
+					<div class="row">
+						<form control="" class="form-group">
+							<div class="row">
+								<input type="text" name="username" id="username" class="form__input" placeholder="Usuario">
+							</div>
+							<div class="row">
+								<!-- <span class="fa fa-lock"></span> -->
+								<input type="password" name="password" id="password" class="form__input" placeholder="Contraseña">
+							</div>
+							<div class="row">
+								<input type="checkbox" name="remember_me" id="remember_me" class="">
+								<label for="remember_me">Recuerdame</label>
+							</div>
+							<div class="row" style="display: flex; justify-content: center;">
+                <a type="button" class="btn" href="/Usuario.html">Ingresar</a>
+							</div>
+						</form> 
+					</div>
+					<div class="row">
+						<p>¿No te has registrado? <a href="Crear cuenta.html">Registrate aqui</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
