@@ -1,0 +1,66 @@
+#logo {
+    width:110px;
+    height: 110px;
+    background: #fff;
+    border-radius:50%;
+    cursor: pointer;
+  
+  }
+  #pricnipal{
+      z-index: 0;
+  }
+  body{
+    
+    width: auto;
+    height: auto;
+    background-image:linear-gradient(rgba(86, 240, 15, 0.6), rgba(62, 197, 25, 0.4)), url();
+    background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;
+  
+    z-index: 0;
+  
+  }
+  #logo img
+  {
+    width: 110px;
+    height: 110px;
+    
+  }
+  #banner-prin{
+  background-color: #1dbd33;
+  }
+  .main-content{
+      width: 50%;
+      border-radius: 20px;
+      box-shadow: 0 5px 5px rgba(0,0,0,.4);
+      margin: 5em auto;
+      display: flex;
+  }
+  .company__info{
+      background-color: #3fbe3f;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: #fff;
+  }
+  .fa-android{
+      font-size:3em;
+  }
+ 
+  .row > h2{
+      color:#1bb91b;
+  }
+  .login_form{
+      background-color: #fff;
+      border-top-right-radius:20px;
+      border-bottom-right-radius:20px;
+      border-top:1px solid #ccc;
+      border-right:1px solid #ccc;
+  }
+  form{
+      padding: 0 2em;
+  }
+

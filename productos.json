@@ -1,0 +1,29 @@
+[
+	{
+		"precio": 150,
+		"id": 1,
+		"title": "Fideos",
+		"thumbnailUrl": ""
+	},
+
+	{
+		"precio": 100,
+		"id": 2,
+		"title": "Pan",
+		"thumbnailUrl": ""
+	},
+
+	{
+		"precio": 200,
+		"id": 3,
+		"title": "",
+		"thumbnailUrl": ""
+	},
+
+	{
+		"precio": 450,
+		"id": 4,
+		"title": "Ñoquis",
+		"thumbnailUrl": ""
+	}
+]
