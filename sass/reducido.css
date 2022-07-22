@@ -504,7 +504,7 @@ button:not(:disabled),
 }
 
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: #000000;
 }
 
 .nav-link.disabled {

@@ -10,59 +10,13 @@ body{
 }
 header {
     width: 100vw;
-    height: 120px;
-    background: #1f7c00;
-    display: flex;
+    height: 100px;
+    background-color: #1dbd33;
     padding-top: 10px;
     z-index: 100;
     
 }
-nav{
-    width: 100vw;
-    height: 10px;
-    background: #1f7c00;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    transition: all 0.3s;
-    
-    
-}
-nav ul {
-    list-style: none;
-    overflow: hidden;
-     
-}
-nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 16px;}
-    
 
-nav ul li a 
-{
-  display: block; 
-  padding: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-      
-nav ul li:hover {
-  background: #f08e0d;
-}
-#brand,
-ul {
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  
-}
-  
-#brand {
-    padding-left: 40px;
-    
-}
-  
 #logo {
     width:110px;
     height: 110px;
@@ -85,13 +39,24 @@ ul {
     overflow: auto;
     overflow-wrap: break-word;
     position: sticky;
-    top: 119px;
+    top: 101px;
     z-index: 100;
     
 }
-#Cont-caorusel{
-    background-image: radial-gradient(circle at 56.18% 42.64%, #f7f7f7 0, #f7f7f7 16.67%, #f7f7f7 33.33%, #f7f7f7 50%, #f7f7f7 66.67%, #f7f7f7 83.33%, #f7f7f7 100%);
+.opciones-nav{
+
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 400ms;
+    border-radius: 10px;
 }
+.opciones-nav:hover{
+    background: orange;
+    color: #141413;
+}
+
+
 
 .text-op{
     text-align: center;
@@ -105,7 +70,7 @@ main .title{
     background-color:#1dbd33;
     position: -webkit-sticky;
     position: sticky;
-    top: 159px;
+    top: 141px;
     padding: 10px;
 }
 main h3{
