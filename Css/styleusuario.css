@@ -10,68 +10,12 @@ body{
 }
 header {
     width: 100vw;
-<<<<<<< HEAD
-    height: 120px;
-    background: #59e270;
-    display: flex;
-=======
     height: 100px;
     background-color: #1dbd33;
->>>>>>> c252a0d8288ddb9af08ae885f051593db7af49c7
     padding-top: 10px;
     z-index: 100;
     
 }
-<<<<<<< HEAD
-nav{
-    width: 100vw;
-    height: 10px;
-    background: #59e270;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    transition: all 0.3s;
-    
-    
-}
-nav ul {
-    list-style: none;
-    overflow: hidden;
-     
-}
-nav ul li {
-    float: left;
-    font-family: Arial, Helvetica, sans-serif;;
-    font-size: 16px;}
-    
-
-nav ul li a 
-{
-  display: block; 
-  padding: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-      
-nav ul li:hover {
-  background: #549c2a;
-}
-#brand,
-ul {
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  
-}
-  
-#brand {
-    padding-left: 40px;
-    
-}
-  
-=======
-
->>>>>>> c252a0d8288ddb9af08ae885f051593db7af49c7
 #logo {
     width:110px;
     height: 110px;
