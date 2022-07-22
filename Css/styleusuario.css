@@ -11,7 +11,7 @@ body{
 header {
     width: 100vw;
     height: 100px;
-    background-color: #1dbd33;
+    background-color:#3fbe3f;
     padding-top: 10px;
     z-index: 100;
     
@@ -66,7 +66,7 @@ header {
 
 main .title{
     width: 100%;
-    background-color:#59e270;
+    background-color:#3fbe3f;
     position: -webkit-sticky;
     position: sticky;
     top: 141px;
