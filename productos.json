@@ -2,28 +2,28 @@
 	{
 		"precio": 150,
 		"id": 1,
-		"title": "Vitamina",
-		"thumbnailUrl": ""
+		"title": "ACIDO FOLICO 30 CAP",
+		"thumbnailUrl": "https://cdn.shopify.com/s/files/1/0276/2063/8800/products/99464_e9ac4d5d-8f82-4be5-b7e4-89e0a152ffd1_700x700.jpg?v=1619739736"
 	},
 
 	{
 		"precio": 100,
 		"id": 2,
-		"title": "Superfood",
-		"thumbnailUrl": ""
+		"title": "MACA 100 G",
+		"thumbnailUrl": "https://cdn.shopify.com/s/files/1/0276/2063/8800/products/35882_700x700.jpg?v=1624135028"
 	},
 
 	{
 		"precio": 200,
 		"id": 3,
-		"title": "Sumplementos",
-		"thumbnailUrl": ""
+		"title": "GOMITAS DE VITAMINA ",
+		"thumbnailUrl": "https://cdn.shopify.com/s/files/1/0276/2063/8800/products/48542_700x700.jpg?v=1637956541"
 	},
 
 	{
 		"precio": 450,
 		"id": 4,
-		"title": "Belleza",
-		"thumbnailUrl": ""
+		"title": "COLAGENO CON BIOTINA 90 TAB",
+		"thumbnailUrl": "https://cdn.shopify.com/s/files/1/0276/2063/8800/products/21012_700x700.jpg?v=1620261907"
 	}
 ]
